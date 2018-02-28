@@ -8,5 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="es6-promise-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-native-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-native-elements-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-native-fetch-blob-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="react-navigation-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="redux-ui-DefinitelyTyped" level="application" />
   </component>
 </module>
