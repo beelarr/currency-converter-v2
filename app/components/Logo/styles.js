@@ -15,7 +15,14 @@ const styles = EStyleSheet.create({
   logoImage: {
     width: imageWidth / 2,
     height: imageWidth / 2
-  }
+  },
+	text:{
+  	color: '$white',
+		fontWeight: '600',
+		fontSize: 28,
+		letterSpacing: -0.5,
+		marginTop: 15
+	}
 });
 
 export default styles;
