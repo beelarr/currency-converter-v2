@@ -1,6 +1,6 @@
 import EStyleSheet from "react-native-extended-stylesheet";
 
-const styles = EStyleSheet.create({
+export default EStyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
@@ -9,5 +9,4 @@ const styles = EStyleSheet.create({
   }
 });
 
-export default styles;
 
