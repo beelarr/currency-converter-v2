@@ -8,3 +8,4 @@ EStyleSheet.build({
   $white: '#FFFFFF'
 });
 export default () => <Home />;
+

@@ -1,11 +1,34 @@
-import React from "react";
-import { View, StatusBar } from "react-native";
+import React, { Component } from "react";
+import { StatusBar } from "react-native";
 import { Container } from "../components/Container";
 import { Logo } from '../components/Logo'
+import { InputWithButton } from '../components/TextInput/InputWithButton';
 
-export default () => (
-  <Container>
-    <StatusBar translucent={false} barStyle="light-content" />
-    <Logo />
-  </Container>
-);
+
+const TEMP_BASE_CURRENCY = 'USD';
+const TEMP_QUOTE_CURRENCY = 'GBP';
+const TEMP_BASE_PRICE = '100';
+const TEMP_QUOTE_PRICE = '79.74';
+
+
+class Home extends Component {
+  render() {
+      return (
+	      <Container>
+		      <StatusBar translucent={false} barStyle="light-content" />
+		      <Logo />
+		      <InputWithButton
+			      buttonText={}
+			      onPress={}
+		      />
+		      <InputWithButton
+			      buttonText={}
+			      onPress={}
+			      editable={false}
+		      />
+	      </Container>
+      )
+  }
+};
+
+export default Home;
